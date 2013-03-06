@@ -19,6 +19,7 @@
         <receiver android:name="com.henteko07.uec_express.ListWidgetProvider" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.henteko07.uec_express.ACTION_CLICK" />
             </intent-filter>
 
             <meta-data
